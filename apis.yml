@@ -1,8 +1,24 @@
 aid: avantos
 name: Avantos
-description: 'Avantos is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: ai-ml. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Avantos is an AI-native operating system for client management in financial
+  services, built for wealth management and advisory firms. The platform unifies client
+  data, products, teams, and workflows into a knowledge graph that powers agentic onboarding,
+  relationship intelligence, and an AI-powered servicing workspace where agents anticipate
+  client needs and streamline operations. It integrates with existing CRMs, custodians,
+  and core systems, and is SOC 2 compliant with enterprise-grade architecture. Avantos
+  raised a $35M Series A led by Bessemer Venture Partners, announced February 2026.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/assets/0ZQlGTlyjPSF7ZvJxpVYYxmK4vQ.png
 url: https://raw.githubusercontent.com/api-evangelist/avantos/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Ai Ml
+- Financial Services
+- Wealth Management
+- Client Management
+- Onboarding
+- CRM
+- AI Agents
+- Knowledge Graph
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,18 @@ maintainers:
 common:
 - type: Website
   url: https://avantos.ai/
+- type: PrivacyPolicy
+  url: https://avantos.ai/privacy
+- type: TrustCenter
+  url: https://app.secureframe.com/ext/trust-center/mosaic-iq/
+- type: Compliance
+  url: https://app.secureframe.com/ext/trust-center/mosaic-iq/
+- type: Support
+  url: mailto:info@avantos.ai
+- type: DomainSecurity
+  url: security/avantos-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
