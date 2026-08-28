@@ -7,6 +7,17 @@ description: 'Avantos is an AI-native operating system for client management in 
   client needs and streamline operations. It integrates with existing CRMs, custodians,
   and core systems, and is SOC 2 compliant with enterprise-grade architecture. Avantos
   raised a $35M Series A led by Bessemer Venture Partners, announced February 2026.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
